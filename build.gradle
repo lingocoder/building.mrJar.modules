@@ -1,0 +1,17 @@
+plugins{ 
+    id 'eclipse'
+    id 'java-library'
+    id 'com.lingocoder.mrjar' version '0.0.6' apply false
+}
+ allprojects {
+    apply plugin: 'java-library'
+    apply plugin: 'com.lingocoder.mrjar'
+    apply plugin: 'eclipse'
+    apply( from: rootProject.file( 'modulefy.gradle' ) )
+    afterEvaluate {
+
+        repositories {
+            jcenter( )
+        }
+    }
+}

@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'file://z:/staging/consuming/maven-repo'
+        }
+        gradlePluginPortal( )
+        mavenCentral( )
+    }
+}
+
+rootProject.name = "storyteller"
+
+include 'actors'
+include 'tale'
+include 'bears'
+include 'pigs'
+include 'fairy'
+include 'formula'

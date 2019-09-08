@@ -1,0 +1,9 @@
+dependencies {
+    implementation 'com.google.guava:guava:22.0'
+    testImplementation 'junit:junit:4.12'
+}
+
+mrjar{ 
+    releases = [JavaVersion.VERSION_11]
+    moduleName = 'org.gradle.actors'
+}
