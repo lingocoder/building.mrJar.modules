@@ -81,6 +81,5 @@ Check out [*the **mrJar** project site*](http://bit.ly/mrjarsite). You'll find m
   
   
 ______
-<sup><sup><sup><sup>*1*</sup></sup></sup></sup><sup>*The **mrJar** Gradle plugin itself, is not derived from any other existing plugin. The **mrJar** plugin is an original software design implementated from scratch.*</sup>
 
 
