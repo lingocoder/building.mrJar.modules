@@ -1,7 +1,7 @@
 plugins{ 
     id 'eclipse'
     id 'java-library'
-    id 'com.lingocoder.mrjar' version '0.0.7' apply false
+    id 'com.lingocoder.mrjar' version '0.0.12' apply false
 }
  allprojects {
     apply plugin: 'java-library'

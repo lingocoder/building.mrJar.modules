@@ -5,6 +5,5 @@ dependencies {
 }
 
 mrjar{ 
-    releases = [JavaVersion.VERSION_11]
     moduleName = 'org.gradle.fairy.tale.bears'
 }

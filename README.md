@@ -15,9 +15,9 @@ The most important take away from this *building.mrJar.modules* demo, is how eas
 
 1. Clone or download the project <br />
    • *`cd`* into the root folder where you cloned/unzipped the project
-2. In a command line terminal, enter: *`./gradlew :check`* <br />
+2. In a command line terminal, enter: *`./gradlew check`* <br />
    • that will launch the tests
-3. Or enter: *`./gradlew :assemble`* <br />
+3. Or enter: *`./gradlew assemble`* <br />
    • that will bundle all the individual subprojects into there individual Jigsaw/Java 9<sup>+</sup> modules <br />
    • examine any one of the modules with: *`jar -f pigs/build/libs/org.gradle.fairy.tale.pigs.jar --describe-module`* <br />
     ```
@@ -28,7 +28,7 @@ The most important take away from this *building.mrJar.modules* demo, is how eas
     requires org.gradle.fairy.tale transitive
     requires org.gradle.fairy.tale.formula
     ```
-4. Or enter: *`./gradlew :fairy:run`* <br />
+4. Or enter: *`./gradlew fairy:run`* <br />
    • that will run the Storyteller application module that consumes all the other five modules and print:
 
     ```
